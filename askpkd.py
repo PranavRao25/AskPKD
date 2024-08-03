@@ -40,8 +40,6 @@ class MistralParser:
       Invokes the parser and finds the Model response
     """
     ans = self.parser.invoke(query)
-    st.markdown('Parser')
-    st.markdown(ans)
     return ans[ans.find(self.stopword)+len(self.stopword):].strip()
 
 
