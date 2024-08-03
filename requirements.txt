@@ -1,0 +1,7 @@
+langchain
+langchain_community
+lancedb
+langchain_huggingface
+langchain_core
+streamlit
+sentence_transformers
